@@ -66,10 +66,35 @@ In conclusion, remediation efforts should prioritize critical issues such as the
 The vulnerability assessment was conducted from the perspective of an unauthenticated user on the internal network. Testing targeted a Metasploitable machine, simulating real-world attack scenarios. Network ranges were identified without prior knowledge of the system’s configurations or operating environment.
 ### Summary of Findings
 The vulnerability assessment uncovered a total of 48 findings, categorized by severity level, that pose significant risks to the target system. Additionally, several informational findings were identified, which, if addressed, could improve the system’s overall security posture. Informational findings are observations highlighting areas for improvement and do not constitute direct security vulnerabilities. The table below summarizes the findings by severity level.
-screenshot
+
+![Table 2](./screenshots/Screenshot-2.png)
+
+
 Below is a high-level overview of each finding identified during testing. These findings are covered in depth in the Technical Findings Details section of this report.
-screenshot
+
+![Table 3](./screenshots/Screenshot-3.png)
 
 ## Technical Findings Details
 
-
+1. Apache Tomcat AJP Connector Request Injection (Ghostcat) – Critical
+![Table 2](./screenshots/Screenshot-4.png)
+2. Bind Shell Backdoor Detection
+![Table 2](./screenshots/Screenshot-5.png)
+3. SSL Version 2 and 3 Protocol Detection   
+![Table 2](./screenshots/Screenshot-6.png)
+5. Apache Tomcat SEoL (<= 5.5.x)
+![Table 2](./screenshots/Screenshot-7.png)
+6. Debian OpenSSH/OpenSSL Package Random Number Generator Weaknes
+![Table 2](./screenshots/Screenshot-8.png) 
+7. VNC Server 'password' Password
+![Table 2](./screenshots/Screenshot-9.png) 
+8. ISC BIND Service Downgrade / Reflected DoS
+![Table 2](./screenshots/Screenshot-10.png)
+9. NFS Shares World Readable
+![Table 2](./screenshots/Screenshot-11.png)
+10. SSL Medium Strength Cipher Suites Supported (SWEET32)
+![Table 2](./screenshots/Screenshot-12.png)
+11. Samba Badlock Vulnerability
+![Table 2](./screenshots/Screenshot-13.png)
+12. rlogin Service Detection
+![Table 2](./screenshots/Screenshot-14.png)
