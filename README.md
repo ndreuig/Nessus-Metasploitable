@@ -48,7 +48,7 @@ The assessment was conducted between [start date] and [end date] using Nessus, a
 ### Scope
 The scope of this assessment was limited to a single, internal virtual machine environment: the Metasploitable machine, configured to simulate a vulnerable network for testing and analysis.
 #### In-Scope Assets
-screenshot
+![a] (screenshots/Screenshot-1.png)
 
 ### Assessment Overview and Recommendations
 During the vulnerability assessment of the Metasploitable machine, several critical and high-severity vulnerabilities were identified that threaten the confidentiality, integrity, and availability of the system. The findings included insecure configurations, outdated software, and weak authentication mechanisms. These vulnerabilities expose the system to risks such as unauthorized access, data breaches, and full system compromise.
