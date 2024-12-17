@@ -31,10 +31,10 @@
 3. **Analysis**:
    - Identified **111 vulnerabilities**, including:
      - 7 **Critical**
-     - 2 **High**
-     - 21 **Medium**
+     - 5 **High**
+     - 18 **Medium**
      - 8 **Low**
-     - 73 **Informational**
+     - 74 **Informational**
   
 4. **Reporting**:
    - Generated a detailed PDF report highlighting key findings and recommendations.
@@ -65,7 +65,7 @@ In conclusion, remediation efforts should prioritize critical issues such as the
 ## Assessment summary
 The vulnerability assessment was conducted from the perspective of an unauthenticated user on the internal network. Testing targeted a Metasploitable machine, simulating real-world attack scenarios. Network ranges were identified without prior knowledge of the system’s configurations or operating environment.
 ### Summary of Findings
-The vulnerability assessment uncovered a total of 48 findings, categorized by severity level, that pose significant risks to the target system. Additionally, several informational findings were identified, which, if addressed, could improve the system’s overall security posture. Informational findings are observations highlighting areas for improvement and do not constitute direct security vulnerabilities. The table below summarizes the findings by severity level.
+The vulnerability assessment uncovered a total of 38 findings, categorized by severity level, that pose significant risks to the target system. Additionally, several informational findings were identified, which, if addressed, could improve the system’s overall security posture. Informational findings are observations highlighting areas for improvement and do not constitute direct security vulnerabilities. The table below summarizes the findings by severity level.
 
 ![Table 2](./screenshots/Screenshot-2.png)
 
